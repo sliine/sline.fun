@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sline • sline.fun</title>
+
+    <meta property="og:site_name" content="sline.fun"/>
+	<meta property="og:locale" content="en_US"/>
+	<meta property="og:title" content="Sline • sline.fun"/>
+    <meta property="og:type" content="website"/>
+
+    <style>
+        .font-cabin {
+            font-family: 'Cabin', sans-serif;
+        }
+
+        .font-inter {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    
+    
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black text-white font-cabin">
+    <div class="z-10 w-screen fixed top-0 p-2 sm:px-8">
+        <div class="flex-row-reverse flex uppercase">
+            <a href="mailto:sline@sline.fun" target="_blank" class="p-2 inline-block my-auto cursor-pointer">
+                contact
+            </a>
+            <a href="https://discord.gg/R3CCxy5" target="_blank" class="p-2 inline-block my-auto cursor-pointer">
+                discord
+            </a>
+            <a href="https://github.com/sliine" target="_blank" class="p-2 inline-block my-auto cursor-pointer">
+                github
+            </a>
+            <a href="https://t.me/sllem" target="_blank" class="p-2 inline-block my-auto cursor-pointer">
+                telegram
+            </a>
+            <a href="https://github.com/sliine" target="_blank" class="p-2 inline-block my-auto cursor-pointer">
+                youtube
+            </a>			
+            <a href="https://blog.sline.fun" target="_blank" class="p-2 inline-block my-auto cursor-pointer">
+                blog
+            </a>					
+            <a class="transform rotate-90 p-2 mr-4 inline-block my-auto">
+                <i class="animate-bounce fas fa-arrow-up text-xl"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="font-inter w-screen h-full">
+        <div id="background" class="w-full h-screen bg-cover bg-bottom top-0 fixed" style="background-image: url(https://i.imgur.com/y8uZw61.jpg);"></div>
+        <div class="relative flex h-screen">
+            <div class="m-auto">
+                <div class="-mx-48 sm:mx-0 h-32 transform scale-50 sm:scale-100 md:scale-150">
+                    <div class="inline-block z-10 relative">
+                        <div class="h-32 w-32 inline-block rounded-full">
+                            <div id="loader" class="bg-black m-auto h-32 w-32 p-8 fixed text-6xl">
+                                <i class="animate-spin fas fa-spinner"></i>
+                            </div>
+                            <img class="h-full inline-block rounded-full" src="https://i.imgur.com/cwWemzv.jpg">
+                        </div>
+                    </div>
+                    <div class="inline-block align-middle -ml-16 font-cabin text-6xl h-full rounded-r-full pl-16" style="background: rgba(0,0,0,0.5);">
+                        <p class="m-8 ml-4">
+                            <span class="block -my-6">sline</span>
+                            <span class="ml-1 text-sm">java dev</span><span class="ml-8 text-sm">creator</span>
+                        </p>
+						<embed src="https://sline.fun/notsee.mp3" loop="true" autostart="true" width="1" height="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const background = document.querySelector("#background");
+        const loader = document.querySelector("#loader");
+
+        let source = background.style.backgroundImage;
+        background.style.backgroundImage = "";
+
+        window.addEventListener("load", () => {
+            background.style.backgroundImage = source;
+            loader.remove();
+        });
+    </script>
+    <script async defer data-website-id="1e208196-9857-4987-b5b4-bb35d80a32c4" src="https://analytics.altar.host/umami.js"></script>
+</body>
+</html>
