@@ -9,6 +9,8 @@
 	<meta property="og:title" content="Sline • sline.fun"/>
     <meta property="og:type" content="website"/>
 
+    <link rel="stylesheet" type="text/css" href="style/css/load.css" />
+
     <style>
         .font-cabin {
             font-family: 'Cabin', sans-serif;
@@ -23,7 +25,9 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Inter&display=swap" rel="stylesheet">
 </head>
-<body class="bg-black text-white font-cabin">
+
+<body>     
+<div class="bg-black text-white font-cabin">
     <div class="z-10 w-screen fixed top-0 p-2 sm:px-8">
         <div class="flex-row-reverse flex uppercase">
             <a href="mailto:sline@sline.fun" target="_blank" class="p-2 inline-block my-auto cursor-pointer">
@@ -74,6 +78,7 @@
             </div>
         </div>
     </div>
+</div>
     <script>
         const background = document.querySelector("#background");
         const loader = document.querySelector("#loader");
@@ -86,6 +91,6 @@
             loader.remove();
         });
     </script>
-    <script async defer data-website-id="1e208196-9857-4987-b5b4-bb35d80a32c4" src="https://analytics.altar.host/umami.js"></script>
-</body>
+    <!--<script type="style/js/load.js"></script>
+--></body>
 </html>
