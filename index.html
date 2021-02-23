@@ -53,10 +53,10 @@
             </a>
         </div>
     </div>
-
     <div class="font-inter w-screen h-full">
         <div id="background" class="w-full h-screen bg-cover bg-bottom top-0 fixed" style="background-image: url(https://i.imgur.com/y8uZw61.jpg);"></div>
         <div class="relative flex h-screen">
+            <div id="lock">
             <div class="m-auto">
                 <div class="-mx-48 sm:mx-0 h-32 transform scale-50 sm:scale-100 md:scale-150">
                     <div class="inline-block z-10 relative">
@@ -76,6 +76,20 @@
                     </div>
                 </div>
             </div>
+            <script type="text/javascript">
+                const obj = document.getElementById("lock");
+                let PositionY = 100;
+                let PositionX = 100;
+                function setPosition(obj, x, y) {
+                    obj.style.left = x+'px';
+                    obj.style.top = y+'px';
+                }
+                let sleep = (ms)=> new Promise(resolve => setTimeout(resolve, ms));
+                sleep(1500);
+                obj.style.position = "relative";
+                setPosition(obj, PositionY , PositionX );
+            </script>
+        </div>
         </div>
     </div>
 </div>
