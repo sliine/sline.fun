@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
+This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
+Repo Install Jellyfin 10." />
+<meta name="keywords" content=", github-code" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://www.jesseward.com/projects/jellyfin-plugin-lastfm/" />
+
+
+    <title>
+        
+            Jellyfin Plugin Lastfm :: Jesse Ward  — Software Developer // Systems Guy // Music Nut
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://sline.fun/main.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Jellyfin Plugin Lastfm">
+<meta itemprop="description" content="This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
+This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
+Repo Install Jellyfin 10.">
+<meta itemprop="datePublished" content="2019-02-10T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-02-10T00:00:00+00:00" />
+<meta itemprop="wordCount" content="220">
+<meta itemprop="image" content="https://www.jesseward.com/"/>
+
+
+
+<meta itemprop="keywords" content="github-code," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.jesseward.com/"/>
+
+<meta name="twitter:title" content="Jellyfin Plugin Lastfm"/>
+<meta name="twitter:description" content="This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
+This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
+Repo Install Jellyfin 10."/>
+
+
+
+    <meta property="og:title" content="Jellyfin Plugin Lastfm" />
+<meta property="og:description" content="This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
+This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
+Repo Install Jellyfin 10." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.jesseward.com/projects/jellyfin-plugin-lastfm/" />
+<meta property="og:image" content="https://www.jesseward.com/"/>
+<meta property="article:published_time" content="2019-02-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-02-10T00:00:00+00:00" /><meta property="og:site_name" content="Jesse Ward" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2019-02-10 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">JESSEWARD.COM</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#666666;
+                   animation-duration:.85s;">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://www.jesseward.com/about">About</a></li><li><a href="https://www.jesseward.com/mixes">Listen</a></li><li><a href="https://www.jesseward.com/projects">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://www.jesseward.com/projects/jellyfin-plugin-lastfm/">Jellyfin Plugin Lastfm</a></h2>
+
+            
+
+            
+                <img src="/images/jellyfin-banner.svg" class="post-cover" />
+            
+
+            <div class="post-content">
+                <p>This is a plugin for the <a href="https://jellyfin.org/">JellyFin</a> media center that enables audio scrobbling to <a href="http://www.last.fm">Last.FM</a> as well as a metadata fetcher source.</p>
+<p>This plug-in was migrated from the original <a href="https://emby.media/">Emby</a> repository and has been adapted to function within the <a href="https://jellyfin.org/">JellyFin</a> ecosystem. This plugin <em>cannot</em> be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.</p>
+<h2 id="repo-install">Repo Install</h2>
+<p>Jellyfin 10.6.0 introduces 3rd party plugin repositories (see: <a href="https://jellyfin.org/posts/plugin-updates/">announcement</a>). Use the following settings in your Jellyfin installation to install this plugin and its updates from a custom repo.</p>
+<ul>
+<li>Repo name: LastFM Stable</li>
+<li>Repo URL: <a href="https://jellyfin-repo.jesseward.com/manifest.json">https://jellyfin-repo.jesseward.com/manifest.json</a></li>
+</ul>
+<h2 id="build">Build</h2>
+<p>.NET core 2.1 is required to build the LastFM plugin. To install the .NET SDK on Linux or macOS, see the download page at <a href="https://dotnet.microsoft.com/download">https://dotnet.microsoft.com/download</a> . Native package manager instructions can be found for Debian, RHEL, Ubuntu, Fedora, SLES, and CentOS.</p>
+<p>Once the SDK is installed, run the following.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/jesseward/jellyfin-plugin-lastfm.git
+cd jellyfin-plugin-lastfm
+dotnet build
+</code></pre></div><h2 id="install">INSTALL</h2>
+<p>If the build is successful, the tool will report the path to your Plugin dll (<code>Jellyfin.Plugin.Lastfm/bin/Debug/netstandard2.1/Jellyfin.Plugin.Lastfm.dll</code>)</p>
+<p>The plugin should then be copied into your Jellyfin ${CONFIG_DIR}/plugins directory.</p>
+<h2 id="running-jellyfin-from-docker">Running Jellyfin from Docker</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">CACHE_DIR<span style="color:#f92672">=</span>/path/to/cache
+MEDIA_DIR<span style="color:#f92672">=</span>/path/to/media
+CONFIG_DIR<span style="color:#f92672">=</span>/path/to/config
+
+docker run -d <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    --name jelly <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    --volume <span style="color:#e6db74">${</span>CONFIG_DIR<span style="color:#e6db74">}</span>:/config <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    --volume <span style="color:#e6db74">${</span>MEDIA_DIR<span style="color:#e6db74">}</span>:/media <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    --volume <span style="color:#e6db74">${</span>CACHE_DIR<span style="color:#e6db74">}</span>:/cache <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    --publish 8096:8096 <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    --rm <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>jellyfin/jellyfin
+</code></pre></div>
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://www.jesseward.com/tags/github-code/">github-code</a></span>
+        
+    </p>
+
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            
+            <span> <a href="https://www.jesseward.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-59748218-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+    </body>
+</html>
