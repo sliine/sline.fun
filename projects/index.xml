@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Dima Kosukhin</title>
+    <link>https://www.sline.fun/projects/</link>
+    <description>Recent content in Projects on Dima Kosukhin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sline.fun/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FexCubes</title>
+      <link>https://www.sline.fun/projects/fexcubes/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sline.fun/projects/fexcubes/</guid>
+      <description>This project was made to show how I started my career as a web developer and web designer, as well as to prove to myself that you do not need to be afraid to expose your code for viewing. You can't please everyone.</description>
+    </item>
+    
+    <item>
+      <title>FrogsTicket</title>
+      <link>https://www.sline.fun/projects/frogsticket/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sline.fun/projects/frogsticket/</guid>
+      <description>This is a Discord bot for ticket system. Allows you to create a discord, a ticket system on your server, namely, an appeal to the administration or the task of important questions in a separate chat with the administration</description>
+    </item>
+    
+    <item>
+      <title>FrogsTeam (FT)</title>
+      <link>https://www.sline.fun/projects/frogsteams/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sline.fun/projects/frogsteams/</guid>
+      <description>FrogsTeam (FT) - This community of developers and ordinary people was created in order to have fun killing time, as well as looking for friends and help for novice developers.</description>
+    </item>
+    
+  </channel>
+</rss>
